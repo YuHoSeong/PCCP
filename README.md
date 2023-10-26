@@ -59,3 +59,7 @@ Long.parseLong(String s, int radix) : radix 진법으로 숫자를 표현하는 
 Long.toString(long v, int radix) : 정수 v를 radix 진법의 문자열로 변환
 - 자주 사용되는 정규 표현식 (p.145)
 
+# 05 재귀
+1. 상태 정의하기
+2. 종료 조건
+3. 점화식
