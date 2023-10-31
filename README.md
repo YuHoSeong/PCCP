@@ -76,3 +76,12 @@ Long.toString(long v, int radix) : 정수 v를 radix 진법의 문자열로 변�
     - 깊이 우선 탐색(DFS)
     - 너비 우선 탐색(BFS)
 3. 방문처리
+
+# 07 정렬
+- 정렬 대상별 내장 정렬 메서드
+    - 배열 : Arrays.sort()
+    - List, Vector... : Collections.sort()
+    - Stream : stream.sorted()
+- 기저 자료형별 기본 정렬 기준
+    - 숫자형 : 오름차순
+    - 문자형 : 사전순
