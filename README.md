@@ -85,3 +85,31 @@ Long.toString(long v, int radix) : 정수 v를 radix 진법의 문자열로 변�
 - 기저 자료형별 기본 정렬 기준
     - 숫자형 : 오름차순
     - 문자형 : 사전순
+
+## 08 이진탐색
+1. 범위 찾기
+```
+int start =0;
+int end = arr.length;
+```
+2. 검사 진행하기
+탐색 공간이 남아있지 않을 때까지 탐색
+```
+while(end>start){
+
+}
+```
+
+3. 중간 값 비교하기
+```
+int mid = (start + end)/2;
+int value = arr[mid];
+
+if( value == target){
+    return mid;
+} else if(value > target){
+    end = mid;
+} else{
+    start = mid + 1;
+}
+```
